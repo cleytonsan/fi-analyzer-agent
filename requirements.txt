@@ -1,9 +1,2 @@
-python-dotenv
 discord.py
-python-telegram-bot
-yfinance
-requests
-google-generativeai
-pandas
-numpy
-gunicorn
+google-genai
