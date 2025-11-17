@@ -1,6 +1,6 @@
 Light wrapper for Google Generative AI (Gemini). Configure with env var GOOGLE_API_KEY.
 This module exposes `summarize_analysis(prompt)` which returns a human-friendly string.
-"""
+
 import os
 from typing import Optional
 
@@ -24,4 +24,4 @@ def summarize_analysis(prompt: str, model: str = 'gemini-1.5') -> str:
         response = genai.generate_text(model=model, prompt=prompt, max_output_tokens=512)
         return response.text
     except Exception as e:
-        return f"[Gemini call failed] {str(e)}"
+        return f"[Gemini call failed] {str(e)}
