@@ -1,7 +1,4 @@
 # fi-analyzer-agent
-
-"""
-Fi Analyzer Agent
 =================
 Agent that analyzes Brazilian stocks (Ações) and real estate funds (FIIs) using Google Generative AI
 and market data, reachable via Discord or Telegram.
